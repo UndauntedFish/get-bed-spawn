@@ -48,8 +48,7 @@ public class Main extends JavaPlugin
 				}
 				else
 				{
-					player.sendMessage(ChatColor.GOLD +"Bruh" + ChatColor.RESET + 
-							", u don't have permission to use that command.");
+					player.sendMessage(ChatColor.RED + "You don't have permission to use that command!");
 				}
 			}
 			else
