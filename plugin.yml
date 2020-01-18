@@ -1,0 +1,8 @@
+main: com.ben.getbedspawn.Main
+name: GetBedSpawn
+description: Allows players to see their exact bed spawn point coordinates.
+version: 1.0
+commands:
+  bedspawn:
+    aliases: [bspawn, bs]
+    description: Returns the x, y, and z coordinates of the player's spawn point as set by their bed.
